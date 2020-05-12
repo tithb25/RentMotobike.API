@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentMotobike.BAL.Interface\RentMotobike.BAL.Interface.csproj" />
+    <ProjectReference Include="..\RentMotobike.BAL\RentMotobike.BAL.csproj" />
+    <ProjectReference Include="..\RentMotobike.DAL.Interface\RentMotobike.DAL.Interface.csproj" />
+    <ProjectReference Include="..\RentMotobike.DAL\RentMotobike.DAL.csproj" />
+    <ProjectReference Include="..\RentMotobike.Domain\RentMotobike.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

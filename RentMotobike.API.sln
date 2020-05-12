@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMotobike.API", "RentMotobike.API\RentMotobike.API.csproj", "{D019EC97-4BFD-408E-94B8-A3D7D167F299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMotobike.Domain", "RentMotobike.Domain\RentMotobike.Domain.csproj", "{FD41B1E0-9403-4FAC-9D98-6B3610FDF299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMotobike.DAL.Interface", "RentMotobike.DAL.Interface\RentMotobike.DAL.Interface.csproj", "{2608D813-2F60-456C-A920-3B2355311E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMotobike.DAL", "RentMotobike.DAL\RentMotobike.DAL.csproj", "{DBA1C921-3F2D-480F-901D-924A14F1CD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMotobike.BAL.Interface", "RentMotobike.BAL.Interface\RentMotobike.BAL.Interface.csproj", "{531016D6-6422-4E17-9EED-178B2C2DF098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentMotobike.BAL", "RentMotobike.BAL\RentMotobike.BAL.csproj", "{FC16A0DC-0DE7-4B03-9E70-463A7EB63500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D019EC97-4BFD-408E-94B8-A3D7D167F299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D019EC97-4BFD-408E-94B8-A3D7D167F299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D019EC97-4BFD-408E-94B8-A3D7D167F299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D019EC97-4BFD-408E-94B8-A3D7D167F299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD41B1E0-9403-4FAC-9D98-6B3610FDF299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD41B1E0-9403-4FAC-9D98-6B3610FDF299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD41B1E0-9403-4FAC-9D98-6B3610FDF299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD41B1E0-9403-4FAC-9D98-6B3610FDF299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2608D813-2F60-456C-A920-3B2355311E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2608D813-2F60-456C-A920-3B2355311E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2608D813-2F60-456C-A920-3B2355311E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2608D813-2F60-456C-A920-3B2355311E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA1C921-3F2D-480F-901D-924A14F1CD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA1C921-3F2D-480F-901D-924A14F1CD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA1C921-3F2D-480F-901D-924A14F1CD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA1C921-3F2D-480F-901D-924A14F1CD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531016D6-6422-4E17-9EED-178B2C2DF098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531016D6-6422-4E17-9EED-178B2C2DF098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531016D6-6422-4E17-9EED-178B2C2DF098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531016D6-6422-4E17-9EED-178B2C2DF098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC16A0DC-0DE7-4B03-9E70-463A7EB63500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC16A0DC-0DE7-4B03-9E70-463A7EB63500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC16A0DC-0DE7-4B03-9E70-463A7EB63500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC16A0DC-0DE7-4B03-9E70-463A7EB63500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D86B2332-4A89-49A0-A3B9-0B93098DE05A}
+	EndGlobalSection
+EndGlobal
